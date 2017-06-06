@@ -1,15 +1,17 @@
 author: mongoose-os
-name: c-arduino-onewire
 description: Arduino OneWire C app
-# arch: PLATFORM
 version: 1.0
-skeleton_version: 2017-05-18
+
 sources:
   - src
 filesystem:
   - fs
 libs:
   - origin: https://github.com/mongoose-os-libs/arduino-onewire
+
 tags:
   - c
-  - arduino-onewire
+  - arduino
+  - arduino-core
+
+skeleton_version: 2017-05-18
